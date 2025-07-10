@@ -2,7 +2,7 @@
 
 ![Teleport Selector Preview](./Teleporter.gif)
 
-> 📽️ [Watch Demo Video](./Teleporter.mp4)
+> 📽️ [Watch Demo Video]([./Teleporter.mp4](https://youtu.be/OORbuCK2LDU))
 ## Overview
 
 The **Araxia Teleport Selector** is an intuitive in-game interface for players to teleport to a wide range of world locations, dungeons, and raids across all major expansions. Built on **AzerothCore**, this Lua-based interface streamlines navigation across Azeroth, Outland, and Northrend with a user-friendly category and pagination system.
