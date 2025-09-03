@@ -93,6 +93,7 @@ local teleportCategories = {
     {id = 70, name = "Terokkar Forest", image = "Interface\\Buttons\\Teleport\\TerokkarForest"},
     {id = 71, name = "Sunstrider Isle", image = "Interface\\Buttons\\Teleport\\SunstriderIsle"},
     {id = 72, name = "Zangarmarsh", image = "Interface\\Buttons\\Teleport\\Zangarmarsh"},
+    {id = 158, name = "Shadowmoon Valley", image = "Interface\\Buttons\\Teleport\\ShadowmoonValley"},
 },
 
 ["Northrend"] = {
@@ -374,3 +375,4 @@ function ShowTeleportButtons()
         label:SetTextColor(209 / 255, 163 / 255, 14 / 255)
     end
 end
+
