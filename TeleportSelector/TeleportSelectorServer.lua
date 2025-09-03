@@ -79,9 +79,9 @@ local locations = {
     [68] = {map = 530, x = -1145.95, y = 8182.35,  z = 3.60249,   o = 6.13478},   -- Nagrand
     [69] = {map = 530, x = 3830.23,  y = 3426.5,   z = 88.6145,   o = 5.16677},   -- Netherstorm
     [70] = {map = 530, x = -2000.47, y = 4451.54,  z = 8.37917,   o = 4.40447},   -- Terokkar Forest
+    [158] = {map = 530, x = -2998.66, y = 2568.9,  z = 76.63059,   o = 0.551303},  -- Shadowmoon Valley
     [71] = {map = 530, x = 10331.1,  y = -6235.42, z = 26.7759,   o = 1.94594},   -- Sunstrider Isle
     [72] = {map = 530, x = -54.8621, y = 5813.44,  z = 20.9764,   o = 0.081722},  -- Zangarmarsh
-
 
 -- Northrend
     [73] = {map = 571, x = 3256.57,  y = 5278.23,  z = 40.8046,   o = 0.246367},  -- Borean Tundra
@@ -196,3 +196,4 @@ RegisterCreatureGossipEvent(300300, 1, function(_, player, creature)
     AIO.Handle(player, "TeleportSelectorClient", "ShowTeleportUI")
     player:GossipComplete()
 end)
+
