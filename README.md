@@ -39,9 +39,10 @@ The **Araxia Teleport Selector** is an intuitive in-game interface for players t
 ## 📦 File Structure
 
 ```
-TeleportSelectorClient.lua   -- Client UI: buttons, layout, event handling
-TeleportSelectorServer.lua   -- Server coords: teleport destination data
+TeleportSelectorClient.lua   -- Client UI: buttons, layout, event handling - Goes inside Server Lua Scripts folder
+TeleportSelectorServer.lua   -- Server coords: teleport destination data - Goes inside Server Lua Scripts folder
 Interface/Buttons/Teleport   -- Go inside you custom MPQ
+Interface/Fonts/  -- Go inside you custom MPQ
 ```
 
 ---
