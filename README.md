@@ -1,4 +1,10 @@
 # 🌀 Araxia Teleport Selector (AzerothCore)
+![Lua](https://img.shields.io/badge/Lua-5.1-blue.svg)
+![AzerothCore](https://img.shields.io/badge/AzerothCore-Eluna-green)
+![AIO](https://img.shields.io/badge/Uses-Rochet2%20AIO-blueviolet)
+
+
+
 
 ![Teleport Selector Preview](./Teleporter.gif)
 
