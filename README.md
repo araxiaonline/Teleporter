@@ -84,4 +84,3 @@ Interface/Fonts/  -- Go inside you custom MPQ
 
 - ✔️ Designed for **AzerothCore**
 - ❌ Not tested on TrinityCore or other forks
-- 🧩 No external modules or frameworks required (pure Lua + native AC hook support)
