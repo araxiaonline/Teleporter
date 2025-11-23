@@ -199,6 +199,20 @@ local teleportCategories = {
     {id = 157, name = "Windpeak Island", image = "Interface\\Buttons\\Teleport\\Windpeak"},
 },
 
+["Delves"] = {
+    {id = 200, name = "Altar of Storms", image = "Interface\\Buttons\\Teleport\\AltarOfStorms"},
+    {id = 201, name = "Arathi Highlands Farm", image = "Interface\\Buttons\\Teleport\\ArathiFarm"},
+    {id = 202, name = "Blackchar Cave", image = "Interface\\Buttons\\Teleport\\BlackcharCave"},
+    {id = 203, name = "Demon Hunter Cove", image = "Interface\\Buttons\\Teleport\\DemonhunterCove"},
+    {id = 204, name = "Elwynn Falls", image = "Interface\\Buttons\\Teleport\\ElwynnFalls"},
+    {id = 205, name = "Forgotten Gnome Camp", image = "Interface\\Buttons\\Teleport\\ForgottenGnomeCamp"},
+    {id = 206, name = "Newman's Landing", image = "Interface\\Buttons\\Teleport\\NewmansLanding"},
+    {id = 207, name = "Quel'Thalas Island", image = "Interface\\Buttons\\Teleport\\QuelthalasIsland"},
+    {id = 208, name = "Sandfury Delve", image = "Interface\\Buttons\\Teleport\\Sandfury"},
+    {id = 209, name = "Stonetalon Logging Camp", image = "Interface\\Buttons\\Teleport\\StonetalonLoggingCamp"},
+    {id = 210, name = "Stonetalon Ruins", image = "Interface\\Buttons\\Teleport\\StonetalonRuins"},
+},
+
 }
 
 function TeleportSelectorHandlers.ShowTeleportUI()
@@ -253,6 +267,7 @@ function TeleportSelectorHandlers.ShowTeleportUI()
         "WOTLK Dungeons",
         "Raids",
         "Araxia",
+        "Delves",
     }
 
     for i, category in ipairs(categories) do
@@ -375,5 +390,3 @@ function ShowTeleportButtons()
         label:SetTextColor(209 / 255, 163 / 255, 14 / 255)
     end
 end
-
-
