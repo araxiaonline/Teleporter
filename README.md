@@ -1,4 +1,11 @@
 # 🌀 Araxia Teleport Selector (AzerothCore)
+![Lua](https://img.shields.io/badge/Lua-5.1-blue.svg)
+[![Eluna](https://img.shields.io/badge/Eluna-Scripting-blue?logo=lua)](https://github.com/azerothcore/eluna)
+[![AzerothCore](https://img.shields.io/badge/AzerothCore-WoW%20Server-red?logo=worldofwarcraft)](https://github.com/azerothcore/azerothcore-wotlk)
+![AIO](https://img.shields.io/badge/Uses-Rochet2%20AIO-blueviolet)
+
+
+
 
 ![Teleport Selector Preview](./Teleporter.gif)
 
@@ -77,4 +84,3 @@ Interface/Fonts/  -- Go inside you custom MPQ
 
 - ✔️ Designed for **AzerothCore**
 - ❌ Not tested on TrinityCore or other forks
-- 🧩 No external modules or frameworks required (pure Lua + native AC hook support)
