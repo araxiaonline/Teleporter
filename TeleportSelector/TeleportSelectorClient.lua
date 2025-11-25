@@ -206,6 +206,7 @@ local teleportCategories = {
     {id = 203, name = "Demon Hunter Cove", image = "Interface\\Buttons\\Teleport\\DemonhunterCove"},
     {id = 204, name = "Elwynn Falls", image = "Interface\\Buttons\\Teleport\\ElwynnFalls"},
     {id = 205, name = "Forgotten Gnome Camp", image = "Interface\\Buttons\\Teleport\\ForgottenGnomeCamp"},
+    {id = 211, name = "Mustafar", image = "Interface\\Buttons\\Teleport\\Mustafar"},   
     {id = 206, name = "Newman's Landing", image = "Interface\\Buttons\\Teleport\\NewmansLanding"},
     {id = 207, name = "Quel'Thalas Island", image = "Interface\\Buttons\\Teleport\\QuelthalasIsland"},
     {id = 208, name = "Sandfury Delve", image = "Interface\\Buttons\\Teleport\\Sandfury"},
